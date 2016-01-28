@@ -1,0 +1,26 @@
+﻿Build started 4/29/2015 1:08:20 PM.
+     1>Project "C:\Users\Feldspar\Desktop\cpsc362\cpsc362\cpsc362.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\cpsc362.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hazard_area.cpp
+         hazard_area.cpp
+     1>c:\users\feldspar\desktop\cpsc362\cpsc362\hazard_area.cpp(135): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\feldspar\desktop\cpsc362\cpsc362\hazard_area.cpp(137): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\feldspar\desktop\cpsc362\cpsc362\hazard_area.cpp(139): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\feldspar\desktop\cpsc362\cpsc362\hazard_area.cpp(16): warning C4715: 'string_to_bool' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Feldspar\Desktop\cpsc362\Debug\cpsc362.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cpsc362.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Feldspar\Desktop\cpsc362\Debug\cpsc362.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Feldspar\Desktop\cpsc362\Debug\cpsc362.lib" /MACHINE:X86 Debug\hazard_area.obj
+         Debug\Main.obj
+         LINK : C:\Users\Feldspar\Desktop\cpsc362\Debug\cpsc362.exe not found or not built by the last incremental link; performing full link
+         cpsc362.vcxproj -> C:\Users\Feldspar\Desktop\cpsc362\Debug\cpsc362.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Feldspar\Desktop\cpsc362\Debug\cpsc362.exe;#1" /manifest Debug\cpsc362.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\cpsc362.unsuccessfulbuild".
+         Touching "Debug\cpsc362.lastbuildstate".
+     1>Done Building Project "C:\Users\Feldspar\Desktop\cpsc362\cpsc362\cpsc362.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.36
